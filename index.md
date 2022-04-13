@@ -1,5 +1,5 @@
-
-# Podręcznik Scratch - strona główna
+# Wprowadzenie
+[tekst tymczasowy]
 Tworzony przez
 [PMJ_Studio](https://scratch.mit.edu/users/PMJ_Studio),
 [KamGry](https://scratch.mit.edu/users/KamGry),
