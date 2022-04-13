@@ -8,9 +8,9 @@
   <body>
     <nav>
       <ul>
-        {% for node in site.pages %}
-          <li><a href="{{ node.url }}</li>
-        {% endfor %}
+      {% for node in site.pages %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endfor %}
       </ul>
     </nav>
     <section class="container-lg px-3 my-5 markdown-body">
