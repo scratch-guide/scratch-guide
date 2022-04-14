@@ -26,4 +26,4 @@ end
 ```
 
 ## Test Scratch inline codeblock
-`move (10) steps`{:.language-scratch}
+`move (10) steps`{:.language-scratch-inline}
