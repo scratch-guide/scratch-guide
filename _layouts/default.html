@@ -1,23 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-  </head>
-  <body>
-    <nav>
-      <ul>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
       {% for node in site.pages %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      <li><a href="{{ node.url }}">{{ node.title }}</a></li>
       {% endfor %}
-      </ul>
-    </nav>
-    <section class="container-lg px-3 my-5 markdown-body">
-      {{ content }}
-    </section>
-    <footer>
-      &copy; to me
-    </footer>
-  </body>
+    </ul>
+  </nav>
+  <section class="container-lg px-3 my-5 markdown-body">
+    {{ content }}
+  </section>
+  <footer>
+    &copy; to me
+  </footer>
+  <script src="https://github.com/scratchblocks/scratchblocks/blob/master/index.js"></script>
+  <script>
+    scratchblocks.renderMatching('code.language-scratch', {
+      style: 'scratch3',
+      languages: ['en', 'pl'],
+      scale: 1
+    });
+    scratchblocks.renderMatching('code.language-scratch', {
+      style: 'scratch3',
+      languages: ['en', 'pl'],
+      scale: 1
+    });
+  </script>
+</body>
+
 </html>
