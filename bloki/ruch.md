@@ -26,4 +26,10 @@ end
 ```
 
 ## Test Scratch inline codeblock
-`move (10) steps`{:.language-scratch-inline}
+tekst przed wolną linią
+
+tekst linię wyżej
+tekst `move (10) steps`{:.language-scratch-inline} tekst
+więcej tekstu w nowej linii
+
+więcej tekstu po linii przerwy
