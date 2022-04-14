@@ -20,7 +20,7 @@ function test() {
 ## Test Scratch codeblock
 ```scratch
 move (10) steps
-if <not<>>
+if <not<>> then
 	pen up
 end
 ```
